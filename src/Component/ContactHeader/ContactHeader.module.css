@@ -1,0 +1,11 @@
+
+.header h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header p{
+    font-size: 16px;
+    font-weight: 500;
+    color:darkslategrey;
+}

@@ -1,0 +1,48 @@
+.body{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contactForm{
+ display: flex;
+ flex-direction: column;
+ gap: 7px;
+}
+
+.top_btn{
+    display: flex;
+    gap: 32px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formContainer input{
+    height: 30px;
+    border: 2px solid black;
+    padding: 0 8px;
+}
+
+.formContainer label{
+position: absolute;
+top:-12px;
+left:10px;
+background-color: white;
+padding: 0 10px;
+font-size: 12px;
+font-weight: 300;
+}
+
+.formContainer form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
